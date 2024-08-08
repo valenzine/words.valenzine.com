@@ -16,25 +16,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Happiness Machines
-email: hello@txxnano.anonaddy.me
-author: txxnano
+title: Too many words
+email: hello@valenzine.anonaddy.me
+author: valenzine
 description: >- # this means to ignore newlines until "baseurl:"
-  Currently working in the finance industry to humanize tools and make them more accessible to individuals. 
-  As a child, I enjoyed coding and creating games as a hobby.
+  I spend too much time thinking about writing. Much more than I spend writing.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://blog.ignaciobrasca.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: txxnano
-github_username: Warkanlock
+url: "https://words.valenzine.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: valenzine
+github_username: valenzine
 
 # Build settings
 remote_theme: jekyll/minima
 
 minima:
-  skin: solarized-dark
+  skin: classic
   social_links:
-    - { platform: github, user_url: "https://github.com/Warkanlock" }
-    - { platform: twitter, user_url: "https://twitter.com/txxnano" }
+    - { platform: github, user_url: "https://github.com/valenzine" }
+    - { platform: twitter, user_url: "https://twitter.com/valenzine" }
 
 plugins:
   - jekyll-feed

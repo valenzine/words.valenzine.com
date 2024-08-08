@@ -1,13 +1,48 @@
 ---
 ---
 
-// use Robot font from Google Fonts for the body
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i');
-
-body {
-    font-family: 'Roboto', sans-serif !important;
-}
-
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
+
+// use Robot font from Google Fonts for the body
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    font-family: 'Lora', serif !important;
+}
+
+table,
+.post-meta,
+.site-header,
+.feed-subscribe a,
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.site-nav {
+  text-transform: uppercase;
+}
+
+.site-nav .page-link {
+  color: #999;
+  font-size: 0.85rem;
+}
+
+a {
+  color: #006699;
+}
+
+.post-content p a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+
+.feed-subscribe a {
+  color: #444;
+  font-size: 0.75rem;
+}
+
+.svg-icon.orange {
+  color: #444;
+}
