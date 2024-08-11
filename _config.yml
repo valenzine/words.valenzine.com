@@ -25,6 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://words.valenzine.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: valenzine
 github_username: valenzine
+google_analytics: G-6DJ7HK8XEW
 
 # Build settings
 remote_theme: jekyll/minima
@@ -34,6 +35,8 @@ minima:
   social_links:
     - { platform: github, user_url: "https://github.com/valenzine" }
     - { platform: twitter, user_url: "https://twitter.com/valenzine" }
+
+permalink: /:year/:month/:day/:title.html
 
 plugins:
   - jekyll-feed
